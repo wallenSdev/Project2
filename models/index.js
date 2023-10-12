@@ -1,0 +1,1 @@
+//Define associate between Ingredient, User, and Recipe Models
