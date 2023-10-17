@@ -10,6 +10,7 @@ const ingredients = {
     onion: "Onion",
     lemon: "Lemon",
     carrot: "Carrot",
+    broccoli: "Broccoli",
 
 
     // Add more ingredients and descriptions as needed
@@ -38,8 +39,8 @@ const ingredients = {
 
   const recipes = [
     {
-      name: "Recipe 1",
-      ingredients: ["ingredient1", "ingredient2"]
+      name: "Grilled Chicken Breast with Veggies and Mashed Potatoes",
+      ingredients: ["Chicken", "Broccoli", "Onion", "Carrot", "Peppers", "Potatoes"]
     },
     {
       name: "Recipe 2",
