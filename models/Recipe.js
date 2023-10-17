@@ -3,12 +3,7 @@ const sequelize = require('../config/connection');
 
 class Recipe extends Model {}
 
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
-
-class Recipe extends Model {}
-
-Gallery.init(
+Recipe.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -20,14 +15,11 @@ Gallery.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    starting_date: {
-      type: DataTypes.DATE,
-      allowNull: false,
+    instructions: {
+      type: DataTypes.TEXT, 
+      allowNull: true, 
     },
-    ending_date: {
-      type: DataTypes.DATE,
-      allowNull: false,
-    },
+    
   },
   {
     sequelize,
@@ -38,3 +30,5 @@ Gallery.init(
 );
 
 module.exports = Recipe;
+
+
