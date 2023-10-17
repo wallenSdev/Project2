@@ -70,7 +70,7 @@ const ingredients = {
     }
   }
 
-  //API
+  //Spoonacular API
 
   // function getSource(id) {
   //     $.ajax({
